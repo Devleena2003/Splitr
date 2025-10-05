@@ -16,6 +16,8 @@ import type {
 import type * as contacts from "../contacts.js";
 import type * as dashboard from "../dashboard.js";
 import type * as expenses from "../expenses.js";
+import type * as groups from "../groups.js";
+import type * as inngest from "../inngest.js";
 import type * as seed from "../seed.js";
 import type * as users from "../users.js";
 
@@ -31,6 +33,8 @@ declare const fullApi: ApiFromModules<{
   contacts: typeof contacts;
   dashboard: typeof dashboard;
   expenses: typeof expenses;
+  groups: typeof groups;
+  inngest: typeof inngest;
   seed: typeof seed;
   users: typeof users;
 }>;
